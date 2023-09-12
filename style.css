@@ -268,6 +268,7 @@ body {
     margin: 0 auto;
     margin-bottom: 5%;
     padding: 0 30px;
+    max-width: 630px;
 
 }
 
@@ -310,13 +311,15 @@ body {
 }
 
 .about-box p {
-    color: var(--gray-paragraph, #6C6C72);
+    color:  #6C6C72;
     font-family: Josefin Sans;
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 24px;
     margin-left: 10%;
     margin-top: 2.5%;
+    text-align: left;
+
 }
 
 .about-name {
@@ -371,7 +374,10 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
-    padding-inline: 20px;
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 630px;
+
 }
 
 .p2-app {
@@ -522,16 +528,20 @@ body {
     line-height: 47.25px;
     text-transform: uppercase;
     margin: 0;
+    margin-top: 5%;
 }
 
 .Checkout p {
-    width: 42%;
     margin: 0 auto;
     color: #6C6C72;
     text-align: center;
     font-family: Josefin Sans;
     font-size: 1rem;
     font-weight: 400;
+    padding: 0 30px;
+    line-height: 30px;
+    max-width: 630px;
+    margin-top: 30px;
 }
 
 .swiper {
@@ -697,6 +707,7 @@ body {
     padding: 0 30px;
     padding-top: 23px;
     padding-bottom: 3%;
+    max-width: 630px;
 
 }
 
