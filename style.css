@@ -297,7 +297,7 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
 }
 
 .about-box {
@@ -387,8 +387,8 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
-    width: 25%;
     margin: 0 auto;
+    max-width: 297px;
 }
 
 .App-features-sec svg {
@@ -463,10 +463,11 @@ body {
 .details-g-22 p {
     color: #FFF;
     font-family: Josefin Sans;
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    text-transform: lowercase;
 }
 
 .details-g-22,
@@ -478,6 +479,7 @@ body {
     font-weight: 600;
     line-height: 37.5px;
     text-transform: uppercase;
+    min-width: 350px;
 }
 
 .details-image {
@@ -487,27 +489,28 @@ body {
 }
 
 .details-image img {
-    margin-top: 29%;
+    margin-top: 60px;
     width: 100%;
 
 
 }
 
 .App-features-bottom {
-    margin-top: 8%;
+    padding-top: 60px;
     text-align: center;
     align-items: center;
 }
 
 .App-features-bottom h6 {
-    margin-top: 2%;
+    margin-top: 30px;
     color: #FFF;
     text-align: center;
     font-family: Josefin Sans;
     font-size: 1.25rem;
     font-weight: 600;
-    line-height: 30px;
+    /* line-height: 30px; */
     text-transform: uppercase;
+    margin-bottom: 18px;
 }
 
 /* end app features style */
@@ -1148,6 +1151,7 @@ footer {
     font-weight: 700;
     line-height: 47.25px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .footer-logo p {
@@ -1156,9 +1160,8 @@ footer {
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
-    width: 60%;
-    padding-bottom: 25px;
-    padding-top: 15px;
+    padding-bottom: 38px;
+    padding-top: 1px;
 }
 
 .social-icons-footer {
@@ -1201,18 +1204,20 @@ i:active {
     font-size: 1.563rem;
     font-weight: 600;
     text-transform: uppercase;
-    text-align: center;
+    text-align: center; 
+    margin: 0;
 }
+
 
 .contact-1 ul {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
     list-style: none;
     width: 100%;
     padding-top: 11px;
     height: 65%;
+    gap: 12px;
 }
 
 .contact-1 a {
@@ -1228,7 +1233,6 @@ i:active {
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     min-width: 300px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -1240,6 +1244,7 @@ i:active {
     font-size: 1.563rem;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .news-letter p {
@@ -1249,6 +1254,8 @@ i:active {
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
+    margin-bottom: 33px;
+    margin-top: 11px;
 }
 
 .news-letter form {
@@ -1450,13 +1457,16 @@ a {
         height: 24px;
     }
 .contact-us{
-    flex-direction: column;
-    align-items:center ;
-    justify-content: center;
+    flex-direction: column !important;
+    justify-content: space-evenly !important;
+    align-items: center!important;
+    column-gap: 38px;
 }
 
 .line{
     rotate: 90deg;
+    height: 30px;
+    margin-left: auto;
 }
 .hero{
     justify-content: center;
